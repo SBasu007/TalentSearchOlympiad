@@ -7,6 +7,10 @@ body{
     position: fixed;
     z-index:3;
     background-color: #294588;
+    width:100vw;
+}
+.custom{
+    color:white;
 }
 .brand{
     height:58.7px ;
@@ -156,7 +160,15 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-@media only screen and (max-width: 768px){
+@media (max-width: 480px){
+    .head{
+        position: relative;
+        width: 100vw;
+    }
+    .brand{
+        height:29.3px ;
+        width:95px;
+    }
     .footer{
         height:790px;
     }
@@ -164,6 +176,7 @@ hr{
         text-align: center;
     }
     .intro-pic{
+        margin-top:0;
         height:30vh;
     }
     .state-lev-ann,.nation-lev-ann{
